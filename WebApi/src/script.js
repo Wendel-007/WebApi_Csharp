@@ -12,4 +12,5 @@ fetch(url)
     })
     .catch(error => {
         console.error("Erro ao buscar dados da API:", error);
+   
     });
