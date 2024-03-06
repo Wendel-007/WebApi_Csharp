@@ -3,44 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\interfaces\\iprodutosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\interfaces\\iprodutosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\models\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\migrations\\20240305160602_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\migrations\\20240305160602_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\controllers\\authcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\authcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\context\\produtomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\context\\produtomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\models\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\migrations\\20240305160602_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\migrations\\20240305160602_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\interfaces\\iprodutosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\interfaces\\iprodutosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|c:\\users\\fwnoo\\onedrive\\documentos\\webapi\\webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -54,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwBMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T16:00:36.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ProdutosModel.cs",
               "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Models\\ProdutosModel.cs",
               "RelativeDocumentMoniker": "WebApi\\Models\\ProdutosModel.cs",
@@ -72,32 +97,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "20240305160602_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Migrations\\20240305160602_Initial.cs",
-              "RelativeDocumentMoniker": "WebApi\\Migrations\\20240305160602_Initial.cs",
-              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Migrations\\20240305160602_Initial.cs",
-              "RelativeToolTip": "WebApi\\Migrations\\20240305160602_Initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T16:06:02.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T16:00:36.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApi\\Context\\AppDbContext.cs",
@@ -110,46 +109,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IProdutosRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Interfaces\\IProdutosRepositorio.cs",
-              "RelativeDocumentMoniker": "WebApi\\Interfaces\\IProdutosRepositorio.cs",
-              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Interfaces\\IProdutosRepositorio.cs",
-              "RelativeToolTip": "WebApi\\Interfaces\\IProdutosRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "DocumentIndex": 7,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "WebApi\\Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Service\\TokenService.cs",
+              "RelativeToolTip": "WebApi\\Service\\TokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T16:00:53.892Z",
+              "WhenOpened": "2024-03-06T01:56:09.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Key.cs",
+              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Key.cs",
+              "RelativeDocumentMoniker": "WebApi\\Key.cs",
+              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Key.cs",
+              "RelativeToolTip": "WebApi\\Key.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T01:55:32.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvywAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T15:56:00.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "WebApi\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "WebApi\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "AuthControler.cs",
+              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Controllers\\AuthControler.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\AuthControler.cs",
+              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Controllers\\AuthControler.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\AuthControler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T16:12:08.509Z",
+              "WhenOpened": "2024-03-06T02:31:04.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-05T16:09:46.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProdutoMap.cs",
               "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Context\\ProdutoMap.cs",
               "RelativeDocumentMoniker": "WebApi\\Context\\ProdutoMap.cs",
@@ -162,7 +187,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "20240305160602_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Migrations\\20240305160602_Initial.cs",
+              "RelativeDocumentMoniker": "WebApi\\Migrations\\20240305160602_Initial.cs",
+              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Migrations\\20240305160602_Initial.cs",
+              "RelativeToolTip": "WebApi\\Migrations\\20240305160602_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T16:06:02.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProdutosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Interfaces\\IProdutosRepositorio.cs",
+              "RelativeDocumentMoniker": "WebApi\\Interfaces\\IProdutosRepositorio.cs",
+              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Interfaces\\IProdutosRepositorio.cs",
+              "RelativeToolTip": "WebApi\\Interfaces\\IProdutosRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T16:00:53.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WebApi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "WebApi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T16:12:08.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "WebApi\\appsettings.json",
@@ -170,23 +234,12 @@
               "RelativeToolTip": "WebApi\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-05T15:56:29.523Z"
+              "WhenOpened": "2024-03-05T15:56:29.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebApi\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-05T16:09:46.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "WebApi.http",
               "DocumentMoniker": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\WebApi\\WebApi\\WebApi.http",
               "RelativeDocumentMoniker": "WebApi\\WebApi.http",
@@ -194,7 +247,8 @@
               "RelativeToolTip": "WebApi\\WebApi.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-03-05T16:07:49.837Z"
+              "WhenOpened": "2024-03-05T16:07:49.837Z",
+              "EditorCaption": ""
             }
           ]
         }

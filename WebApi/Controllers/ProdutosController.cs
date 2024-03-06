@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApi.Context;
 using WebApi.Models;
 using WebApi.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApi.Controllers
 {
@@ -23,6 +24,7 @@ namespace WebApi.Controllers
             _dbcontext = context;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<List<ProdutosModel>>> BuscarTodosProdutos()
         {
@@ -30,6 +32,7 @@ namespace WebApi.Controllers
             return Ok(produtos);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<ProdutosModel>> BuscarProdutosPorId(int id)
         {
@@ -37,6 +40,7 @@ namespace WebApi.Controllers
             return Ok(produto);
         }
 
+        [Authorize]
         [HttpPost("cadastrar")]
         public async Task<ProdutosModel> AdicionarProdutos(ProdutosModel produto)
         {
@@ -45,6 +49,7 @@ namespace WebApi.Controllers
             return produto;
         }
 
+        [Authorize]
         [HttpPut("atualizar")]
         public async Task<ProdutosModel> AtualizarProdutos(ProdutosModel produto, int Id)
         {
@@ -68,6 +73,7 @@ namespace WebApi.Controllers
             return produtoPorId;
         }
 
+        [Authorize]
         [HttpDelete("deletar")]
         public async Task<bool> Apagar(int Id)
         {

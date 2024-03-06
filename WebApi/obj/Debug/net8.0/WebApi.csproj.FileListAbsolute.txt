@@ -134,3 +134,5 @@ C:\Users\fwnoo\OneDrive\Documentos\WebApi\WebApi\obj\Debug\net8.0\refint\WebApi.
 C:\Users\fwnoo\OneDrive\Documentos\WebApi\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\fwnoo\OneDrive\Documentos\WebApi\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\fwnoo\OneDrive\Documentos\WebApi\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\fwnoo\OneDrive\Documentos\WebApi\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\fwnoo\OneDrive\Documentos\WebApi\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json
