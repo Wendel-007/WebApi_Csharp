@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Requisição de API</title>
+</head>
+<body>
+    <script>
+        // Declaração da constante para armazenar os dados
+        let jsonData;
+
+        // Função para fazer a requisição à API e manipular a resposta
+        function fetchData() {
+            fetch('http://localhost:5125/Produtos')
+                .then(response => response.json())
+                .then(data => {
+                    // Armazenar o JSON retornado na constante como um objeto
+                    jsonData = data;
+                    console.log('JSON armazenado:', jsonData);
+                })
+                .catch(error => console.error('Erro ao buscar os dados:', error));
+        }
+
+        // Chamando a função ao carregar a página
+        window.onload = fetchData;
+    </script>
+</body>
+</html>
+
