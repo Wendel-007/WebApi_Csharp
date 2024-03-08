@@ -20,16 +20,17 @@ namespace WebApi.Repositorios
         {
             return await _dbContext.Produtos.ToListAsync();
         }
+
         public async Task<ProdutosModel> AdicionarProdutos(ProdutosModel produto)
         {
-            
-            await _dbContext.Produtos.AddAsync(produto);
             try {
+                await _dbContext.Produtos.AddAsync(produto);
                 await _dbContext.SaveChangesAsync();
+
+                return await BuscarProdutosPorId(produto.Id);
             } catch (Exception e) {
-                throw new Exception(e.InnerException.Message);
+                throw new Exception(e.InnerException.Message); //Throws exception
             }
-            return await BuscarProdutosPorId(produto.Id);
         }
 
         public async Task<ProdutosModel> AtualizarProdutos(ProdutosModel produto, int Id)
@@ -38,7 +39,7 @@ namespace WebApi.Repositorios
 
             if (produtoPorId == null)
                 return null;
-
+            
             produtoPorId.Nome = produto.Nome;
             produtoPorId.DiretorioImg = produto.DiretorioImg;
             produtoPorId.Descricao = produto.Descricao;
@@ -46,9 +47,12 @@ namespace WebApi.Repositorios
             produtoPorId.Estoque = produto.Estoque;
             produtoPorId.Preco = produto.Preco;
 
-            _dbContext.Produtos.Update(produtoPorId);
-            await _dbContext.SaveChangesAsync();
-
+            try {
+                _dbContext.Produtos.Update(produtoPorId);
+                await _dbContext.SaveChangesAsync(); //Throws exception
+            } catch (Exception e) {
+                throw new Exception(e.InnerException.Message);
+            }
             return produtoPorId;
         }
 
@@ -57,9 +61,7 @@ namespace WebApi.Repositorios
             ProdutosModel produtoPorId = await BuscarProdutosPorId(Id);
 
             if (produtoPorId == null)
-            {
-                throw new Exception($"Produto de ID: {Id} não encontrado no banco de dados da aplicação!");
-            }
+                return false;
 
             _dbContext.Produtos.Remove(produtoPorId);
             await _dbContext.SaveChangesAsync();

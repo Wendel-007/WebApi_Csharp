@@ -1,4 +1,6 @@
-﻿namespace WebApi.Models
+﻿using System.Text.Json.Serialization;
+
+namespace WebApi.Models
 {
     public class ProdutosModel
     {

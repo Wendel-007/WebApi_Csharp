@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\util\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\util\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\repositorios\\produtosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositorios\\produtosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +15,16 @@
       "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\context\\produtomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\context\\produtomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\controllers\\authcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\authcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\context\\produtomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\context\\produtomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\models\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProdutosRepositorio.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Repositorios\\ProdutosRepositorio.cs",
               "RelativeDocumentMoniker": "WebApi\\Repositorios\\ProdutosRepositorio.cs",
               "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Repositorios\\ProdutosRepositorio.cs",
               "RelativeToolTip": "WebApi\\Repositorios\\ProdutosRepositorio.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAzwCgAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAIBAwCAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T12:54:38.39Z",
               "IsPinned": true,
@@ -52,13 +52,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Util.cs",
+              "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Util\\Util.cs",
+              "RelativeDocumentMoniker": "WebApi\\Util\\Util.cs",
+              "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Util\\Util.cs",
+              "RelativeToolTip": "WebApi\\Util\\Util.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T21:22:17.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\ProdutosController.cs",
               "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAADwv1kAAABEAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAYwF0AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-08T14:30:11.057Z",
               "EditorCaption": ""
@@ -78,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApi\\Context\\AppDbContext.cs",
@@ -91,20 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProdutosModel.cs",
-              "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Models\\ProdutosModel.cs",
-              "RelativeDocumentMoniker": "WebApi\\Models\\ProdutosModel.cs",
-              "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Models\\ProdutosModel.cs",
-              "RelativeToolTip": "WebApi\\Models\\ProdutosModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T18:35:56.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProdutoMap.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Context\\ProdutoMap.cs",
               "RelativeDocumentMoniker": "WebApi\\Context\\ProdutoMap.cs",

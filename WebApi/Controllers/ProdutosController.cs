@@ -12,6 +12,8 @@ using Microsoft.AspNetCore.Authorization;
 using System.Net;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.IdentityModel.Tokens;
+using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
 
 namespace WebApi.Controllers
 {
@@ -20,12 +22,10 @@ namespace WebApi.Controllers
 
     public class ProdutosController : ControllerBase
     {
-        private readonly AppDbContext _dbcontext;
         private readonly IProdutosRepositorio _produtosRepositorio;
 
-        public ProdutosController(AppDbContext context, IProdutosRepositorio ProdutosRepositorio)
+        public ProdutosController(IProdutosRepositorio ProdutosRepositorio)
         {
-            _dbcontext = context;
             _produtosRepositorio = ProdutosRepositorio;
         }
 
@@ -40,7 +40,7 @@ namespace WebApi.Controllers
             if (!produtos.Any())
                 return NoContent();
 
-            return Ok(produtos);
+            return Ok(new { tipo = "sucesso", mensagem = Util.Util.exitoBuscaDeProdutos, detalhes = produtos });
         }
 
         [Authorize]
@@ -51,15 +51,18 @@ namespace WebApi.Controllers
         public async Task<ActionResult<ProdutosModel>> BuscarProdutosPorId(int id)
         {
 
+            if (id <= 0)
+                return BadRequest(new { tipo = "erro", mensagem = Util.Util.idInvalido, detalhes = $"ID recebido = {id}" });
+
             ProdutosModel produto = await _produtosRepositorio.BuscarProdutosPorId(id);
 
             if (produto == null)
-                return NotFound($"Produto de ID: {id} não encontrado no banco de dados da aplicação.");
+                return NotFound(new { tipo = "erro", mensagem = Util.Util.idNaoEncontrado, detalhes = $"ID recebido = {id}" });
 
-            if (!ModelState.IsValid) 
-                return BadRequest(ModelState);
+            if (!ModelState.IsValid)
+                return BadRequest(new { tipo = "erro", mensagem = Util.Util.erroBuscaPorId, detalhes = ModelState });
 
-            return Ok(produto);
+            return Ok(new { tipo = "sucesso", mensagem = Util.Util.exitoBuscaPorId, detalhes = produto });
         }
 
         [Authorize]
@@ -72,12 +75,12 @@ namespace WebApi.Controllers
                 var resultado = await _produtosRepositorio.AdicionarProdutos(produto);
 
                 if (resultado == null)
-                    return StatusCode(500, "Um ERRO ocorreu a criacao desse produto.");
+                    return StatusCode(500, new { tipo = "erro", mensagem = Util.Util.erroCriacao, detalhes = produto });
 
-                return Ok(resultado);
+                return Ok(new { tipo = "sucesso", mensagem = Util.Util.exitoCriacao, detalhes = resultado });
 
             } catch (Exception e) {
-                return BadRequest(e.Message);
+                return BadRequest(new { tipo = "erro", mensagem  = Util.Util.erroCriacao, detalhes = e.Message });
             }
         }
 
@@ -87,34 +90,16 @@ namespace WebApi.Controllers
         [ProducesResponseType(404)]
         public async Task<ActionResult<ProdutosModel>> AtualizarProdutos(ProdutosModel produto, int id)
         {
-            var produtoAtualizado = await _produtosRepositorio.AtualizarProdutos(produto, id);
+            try {
+                var produtoAtualizado = await _produtosRepositorio.AtualizarProdutos(produto, id);
 
-            if(produtoAtualizado == null)
-                return NotFound($"Produto de ID: {id} não encontrado no banco de dados da aplicação.");
-            
-            return Ok(produtoAtualizado);
-                
-            /*ProdutosModel? produtoPorId = await _dbcontext.Produtos.FindAsync(id);
+                if (produtoAtualizado == null)
+                    return NotFound(new { tipo = "erro", mensagem = Util.Util.idNaoEncontrado, detalhes = $"ID recebido = {id}" });
 
-            if (produtoPorId == null)
-            {
-               return NotFound($"Produto de ID: {id} não encontrado no banco de dados da aplicação.");
+                return Ok(new {tipo = "sucesso", mensagem = Util.Util.exitoAtualizacao, detalhes = produtoAtualizado });
+            } catch (Exception e) {
+                return BadRequest(new { tipo = "erro", mensagem = Util.Util.erroAtualizacao, detalhes = e.Message });
             }
-
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
-            produtoPorId.Nome = produto.Nome;
-            produtoPorId.DiretorioImg = produto.DiretorioImg;
-            produtoPorId.Descricao = produto.Descricao;
-            produtoPorId.Categoria = produto.Categoria;
-            produtoPorId.Estoque = produto.Estoque;
-            produtoPorId.Preco = produto.Preco;
-
-            _dbcontext.Produtos.Update(produtoPorId);
-            await _dbcontext.SaveChangesAsync();
-
-            return Ok(produtoPorId);*/
         }
 
         [Authorize]
@@ -124,17 +109,26 @@ namespace WebApi.Controllers
         [ProducesResponseType(500)] //Erro na API durante a delecao
         public async Task<ActionResult<bool>> Apagar(int id)
         {
-            ProdutosModel produtoPorId = await _dbcontext.Produtos.FindAsync(id);
+            if (id <= 0)
+                return BadRequest(new { tipo = "erro", mensagem = Util.Util.idInvalido, detalhes = $"ID recebido = {id}" });
 
-            if (produtoPorId == null)
-                return NotFound($"Produto de ID: {id} não encontrado no banco de dados da aplicação.");
-            
+            try {
 
-            _dbcontext.Produtos.Remove(produtoPorId);
-            if (await _dbcontext.SaveChangesAsync() <= 0)
-                return StatusCode(500, "Um ERRO ocorreu durante a delecao desse produto.");
+            var estadoDelecao = await _produtosRepositorio.Apagar(id);
 
-            return Ok($"Delecao do produto com ID {id} realizada com sucesso\n {produtoPorId}");
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new { tipo = "erro", mensagem = Util.Util.erroDelecao, detalhes = ModelState });
+            }
+
+                if (!estadoDelecao)
+                return NotFound(new { tipo = "erro", mensagem = Util.Util.idNaoEncontrado, detalhes = $"ID recebido = {id}" });
+                
+                return Ok(new { tipo = "sucesso", mensagem = Util.Util.exitoDelecao, detalhes = $"Produto com ID {id} removido." });
+
+            } catch (Exception e) {
+                return StatusCode(500, new { tipo = "erro", mensagem = Util.Util.erroDelecao, detalhes = e.InnerException.Message });
+            }
         }
     }
 }
