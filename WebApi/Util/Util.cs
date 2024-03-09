@@ -24,7 +24,7 @@
 
         public const string erroBuscaDeProdutos = "Um erro interno ocorreu durante a busca dos produto registrados.";
 
-        public const string exitoBuscaDeProdutos = "Busca do produto registradoss realizada com sucesso";]
+        public const string exitoBuscaDeProdutos = "Busca do produto registradoss realizada com sucesso";
 
         public static object retorno(int codigoHttp, string mensagem, string detalhes)
         {

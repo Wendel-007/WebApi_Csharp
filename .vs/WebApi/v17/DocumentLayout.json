@@ -47,8 +47,7 @@
               "ViewState": "AQIAAA4AAAAAAAAAAIBAwCAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T12:54:38.39Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "WebApi\\Util\\Util.cs",
               "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Util\\Util.cs",
               "RelativeToolTip": "WebApi\\Util\\Util.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABPAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowBoAAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-08T21:22:17.838Z",
               "EditorCaption": ""
@@ -73,8 +72,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\ProdutosController.cs",
               "ViewState": "AQIAAE4AAAAAAAAAAAAYwF0AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T14:30:11.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T14:30:11.057Z"
             },
             {
               "$type": "Document",
@@ -86,8 +84,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\AuthControler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T16:18:13.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T16:18:13.218Z"
             },
             {
               "$type": "Document",
@@ -99,8 +96,7 @@
               "RelativeToolTip": "WebApi\\Context\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T16:17:59.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-08T16:17:59.242Z"
             },
             {
               "$type": "Document",
@@ -112,8 +108,7 @@
               "RelativeToolTip": "WebApi\\Context\\ProdutoMap.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAA1wA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T18:08:39.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-07T18:08:39.253Z"
             }
           ]
         }
