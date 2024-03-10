@@ -38,7 +38,6 @@ builder.Services.AddAuthentication(x =>
 
 builder.Services.AddControllers();
 
-
 builder.Services.AddScoped<IProdutosRepositorio, ProdutosRepositorio>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
