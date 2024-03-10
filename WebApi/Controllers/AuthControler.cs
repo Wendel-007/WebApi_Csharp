@@ -1,21 +1,32 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using WebApi.Models;
 using WebApi.Service;
 
 namespace WebApi.Controllers
 {
     [ApiController]
-    [Route("auth")]
+    [Route("Auth")]
     public class AuthControler : ControllerBase
     {
         [HttpPost]
-        public IActionResult Auth(string username, string password)
+        public async Task<IActionResult> auth([FromBody] AuthModel ReqBody)
         {
-            if(username == "wendelDev" && password == "1234") {
-                var token = TokenService.GenerateToken(new Models.ProdutosModel());
-                return Ok(token);
+            /*
+             * Essa checagem condicional abaixo nunca é executada, 
+             *  pois quando o body JSON da requisição está errado, 
+             *   alguma outra parte do codigo dispara um erro antes de executar esta função.
+            */
+            if(ReqBody.usuario == null || ReqBody.senha == null)
+            {
+                return BadRequest(Util.Util.msgRetorno(400, Util.Util.erroAutenticacao, ReqBody.ToString()));
             }
-            return BadRequest("Usuário ou Senha Inválidos!");
+
+            if(ReqBody.usuario == "wendelDev" && ReqBody.senha == "1234") {
+                var token = TokenService.GenerateToken(new Models.ProdutosModel());
+                string conteudoToken = token.ToString().Replace("{ token =", "").Replace("}", "").Trim();
+                return BadRequest(Util.Util.msgRetorno(200, Util.Util.exitoAutenticacao, conteudoToken));
+            }
+            return Unauthorized(Util.Util.msgRetorno(401, Util.Util.invalidaAutenticacao, "-"));
         }
     }
 }
