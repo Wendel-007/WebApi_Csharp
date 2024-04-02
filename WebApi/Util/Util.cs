@@ -24,28 +24,22 @@
 
         public const string erroBuscaDeProdutos = "Um erro interno ocorreu durante a busca dos produto registrados.";
 
-        public const string exitoBuscaDeProdutos = "Busca do produto registradoss realizada com sucesso";
+        public const string exitoBuscaDeProdutos = "Busca do produtos registrados realizada com sucesso";
 
-        public static object retorno(int codigoHttp, string mensagem, string detalhes)
+        public const string exitoAutenticacao = "Autenticacao realizada com sucesso";
+
+        public const string invalidaAutenticacao = "Autenticação invalida pois Usuario e/ou Senha invalido(s)";
+
+        public const string erroAutenticacao = "Um erro ocorreu durante sua autenticação";
+
+        public static object msgRetorno(int codigoHttp, string mensagem, object conteudo)
         {
-            string tipo = "desconhecido";
-            if(codigoHttp ==  200 || codigoHttp == 201 || codigoHttp == 202 || codigoHttp == 204 )
-            {
-                tipo = "Sucesso";
-            } else
-            {
-                if(codigoHttp == 400 || codigoHttp == 401 || codigoHttp == 403 || codigoHttp == 404)
-                {
-                    tipo = "Erro na Requisição";
-                } else
-                {
-                    if (codigoHttp == 500 || codigoHttp == 501 || codigoHttp == 502 || codigoHttp == 503)
-                    {
-                        tipo = "Erro no Servidor";
-                    }
-                }
-            }
-            return new { CodigoHTTP = codigoHttp, Tipo = tipo, Mensagem = mensagem, Detalhes = detalhes };
+            return new { StatusHTTP = codigoHttp, Mensagem = mensagem, Conteudo = conteudo };
+        }
+
+        public static object msgRetorno(int codigoHttp, string mensagem, string conteudo)
+        {
+            return new { StatusHTTP = codigoHttp, Mensagem = mensagem, Conteudo = conteudo };
         }
     }
 }

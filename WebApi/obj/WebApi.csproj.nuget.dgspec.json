@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fwnoo\\OneDrive\\Documentos\\clone web api\\teste\\WebApi\\WebApi.csproj": {}
+    "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fwnoo\\OneDrive\\Documentos\\clone web api\\teste\\WebApi\\WebApi.csproj": {
+    "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\clone web api\\teste\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\clone web api\\teste\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\fwnoo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fwnoo\\OneDrive\\Documentos\\clone web api\\teste\\WebApi\\obj\\",
+        "projectPath": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\czluc\\.nuget\\packages\\",
+        "outputPath": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fwnoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\czluc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

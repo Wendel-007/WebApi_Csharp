@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\util\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\util\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\repositorios\\produtosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositorios\\produtosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,12 +11,48 @@
       "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\authcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\context\\produtomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\context\\produtomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\repositorios\\produtosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositorios\\produtosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\models\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\migrations\\20240305160602_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\migrations\\20240305160602_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\context\\produtomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\context\\produtomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\util\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\util\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|n:\\dev\\dev_csharp\\webapi_csharp\\webapi\\models\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61392D7-4E8B-4475-8751-C2DDF455F08C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,85 +62,155 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProdutosRepositorio.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Repositorios\\ProdutosRepositorio.cs",
               "RelativeDocumentMoniker": "WebApi\\Repositorios\\ProdutosRepositorio.cs",
               "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Repositorios\\ProdutosRepositorio.cs",
               "RelativeToolTip": "WebApi\\Repositorios\\ProdutosRepositorio.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAIBAwCAAAAANAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowCAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T12:54:38.39Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Key.cs",
+              "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Key.cs",
+              "RelativeDocumentMoniker": "WebApi\\Key.cs",
+              "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Key.cs",
+              "RelativeToolTip": "WebApi\\Key.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T19:23:05.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240305160602_Initial.cs",
+              "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Migrations\\20240305160602_Initial.cs",
+              "RelativeDocumentMoniker": "WebApi\\Migrations\\20240305160602_Initial.cs",
+              "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Migrations\\20240305160602_Initial.cs",
+              "RelativeToolTip": "WebApi\\Migrations\\20240305160602_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T19:22:26.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthModel.cs",
+              "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Models\\AuthModel.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\AuthModel.cs",
+              "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Models\\AuthModel.cs",
+              "RelativeToolTip": "WebApi\\Models\\AuthModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T16:04:51.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProdutosModel.cs",
+              "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Models\\ProdutosModel.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\ProdutosModel.cs",
+              "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Models\\ProdutosModel.cs",
+              "RelativeToolTip": "WebApi\\Models\\ProdutosModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T16:04:14.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "WebApi\\Service\\TokenService.cs",
+              "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Service\\TokenService.cs",
+              "RelativeToolTip": "WebApi\\Service\\TokenService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:38:59.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "WebApi\\appsettings.json",
               "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\appsettings.json",
               "RelativeToolTip": "WebApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-03-09T18:14:54.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
               "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T17:15:07.709Z"
+              "WhenOpened": "2024-03-09T17:15:07.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Util.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Util\\Util.cs",
               "RelativeDocumentMoniker": "WebApi\\Util\\Util.cs",
               "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Util\\Util.cs",
               "RelativeToolTip": "WebApi\\Util\\Util.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAowBoAAABpAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwBoAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T21:22:17.838Z"
+              "WhenOpened": "2024-03-08T21:22:17.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\ProdutosController.cs",
               "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAYwF0AAABUAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAmwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T14:30:11.057Z"
+              "WhenOpened": "2024-03-08T14:30:11.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "AuthControler.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Controllers\\AuthControler.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AuthControler.cs",
               "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Controllers\\AuthControler.cs",
               "RelativeToolTip": "WebApi\\Controllers\\AuthControler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAEwBAAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T16:18:13.218Z"
+              "WhenOpened": "2024-03-08T16:18:13.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApi\\Context\\AppDbContext.cs",
@@ -128,19 +218,21 @@
               "RelativeToolTip": "WebApi\\Context\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T16:17:59.242Z"
+              "WhenOpened": "2024-03-08T16:17:59.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ProdutoMap.cs",
               "DocumentMoniker": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Context\\ProdutoMap.cs",
               "RelativeDocumentMoniker": "WebApi\\Context\\ProdutoMap.cs",
               "ToolTip": "N:\\dev\\dev_CSharp\\WebApi_Csharp\\WebApi\\Context\\ProdutoMap.cs",
               "RelativeToolTip": "WebApi\\Context\\ProdutoMap.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAA1wA8AAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T18:08:39.253Z"
+              "WhenOpened": "2024-03-07T18:08:39.253Z",
+              "EditorCaption": ""
             }
           ]
         }
